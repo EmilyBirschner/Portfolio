@@ -4,6 +4,10 @@ import Walmart from '../../assets/walmart.png'
 import Microsoft from '../../assets/microsoft.png'
 import Facebook from '../../assets/facebook.png'
 import Adobe from '../../assets/adobe.png'
+import FacebookIcon from '../../assets/facebook-icon.png'
+import InstagramIcon from '../../assets/instagram.png'
+import TwitterIcon from '../../assets/twitter.png'
+import YoutubeIcon from '../../assets/youtube.png'
 
 const Contact = () => {
     return (
@@ -26,7 +30,14 @@ const Contact = () => {
                     <input type="text" className="name" placeholder='Seu Nome' />
                     <input type="email" className="email" placeholder='Seu Email' />
                     <textarea className="msg" name="message" rows="5" placeholder='Sua mensagem'></textarea>
-                    <button type='submit' value='Send' className="submitBtn">Enviar</button>
+                    <div><button type='submit' value='Send' className="submitBtn">Enviar</button></div>
+                    <div className="links">
+                        <img src={FacebookIcon} alt="Facebook" className="link" />
+                        <img src={TwitterIcon} alt="Twitter" className="link" />
+                        <img src={YoutubeIcon} alt="Youtube" className="link" />
+                        <img src={InstagramIcon} alt="Instagram" className="link" />
+                      
+                    </div>
                 </form>
             </div>
         </section>
