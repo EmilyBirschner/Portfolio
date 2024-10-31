@@ -20,7 +20,7 @@ function Works() {
                 <img src={Portifolio5} alt="" className="worksImg" />
                 <img src={Portifolio6} alt="" className="worksImg" />
             </div>
-            <button className="worksBtn">Veja Mais</button>
+            {/* <button className="worksBtn">Veja Mais</button> */}
         </section>
     )
 }
