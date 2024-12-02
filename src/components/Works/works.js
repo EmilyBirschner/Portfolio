@@ -1,24 +1,17 @@
 import React from 'react'
 import './works.css'
-import Portifolio1 from '../../assets/portfolio-1.png'
-import Portifolio2 from '../../assets/portfolio-2.png'
-import Portifolio3 from '../../assets/portfolio-3.png'
-import Portifolio4 from '../../assets/portfolio-4.png'
-import Portifolio5 from '../../assets/portfolio-5.png'
-import Portifolio6 from '../../assets/portfolio-6.png'
+import ClimaApp from '../../assets/clima.webp'
+import Todo from '../../assets/to-do.webp'
+
 
 function Works() {
     return (
         <section id="works">
-            <h2 className="worksTitle">Meu Portfólio</h2>
-            <span className="worksDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias laudantium consequuntur perferendis a neque cumque iusto doloribus distinctio consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias laudantium consequuntur perferendis a neque cumque iusto doloribus distinctio consectetur.</span>
+            <h2 className="worksTitle">Meus Projetos</h2>
+            <span className="worksDesc">Bem-vindo à seção de projetos! Aqui você pode explorar algumas das soluções que desenvolvi, combinando tecnologia e criatividade para resolver problemas e criar experiências únicas. Cada projeto reflete meu crescimento como desenvolvedora e minha dedicação em entregar resultados funcionais e inovadores.</span>
             <div className="worksImgs">
-                <img src={Portifolio1} alt="" className="worksImg" />
-                <img src={Portifolio2} alt="" className="worksImg" />
-                <img src={Portifolio3} alt="" className="worksImg" />
-                <img src={Portifolio4} alt="" className="worksImg" />
-                <img src={Portifolio5} alt="" className="worksImg" />
-                <img src={Portifolio6} alt="" className="worksImg" />
+                <img src={ClimaApp} alt="" className="worksImg" />
+                <img src={Todo} alt="" className="worksImg" />
             </div>
             {/* <button className="worksBtn">Veja Mais</button> */}
         </section>

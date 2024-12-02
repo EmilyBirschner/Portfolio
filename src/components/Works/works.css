@@ -35,7 +35,9 @@
 .worksImg {
     object-fit: cover;
     height: 20rem;
+    width: 15rem;
     margin: 0.5rem;
+    border-radius: 10px;
 }
 
 .worksBtn {
