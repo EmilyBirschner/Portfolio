@@ -1,34 +1,34 @@
 import React from 'react'
 import './skills.css'
-import UIDesign from '../../assets/ui-design.png'
-import WebDesign from '../../assets/website-design.png'
-import AppDesign from '../../assets/app-design.png'
+import JavaScript from '../../assets/js.webp'
+import ReactImg from '../../assets/react.webp'
+import CriacaoSite from '../../assets/site.webp'
 
 const Skills = () => {
     return (
         <section id="skills">
             <span className="skillTitle">O que faço</span>
-            <span className="skillDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est quod similique libero assumenda earum corporis tempora rem modi tempore aliquid eum possimus, soluta dolorem perspiciatis optio asperiores ipsa! Nisi?</span>
+            <span className="skillDesc">Desenvolvedora com experiência em JavaScript, HTML, CSS e React. Crio soluções práticas e personalizadas, unindo eficiência técnica e criatividade para entregar projetos que fazem a diferença.</span>
             <div className="skillBars">
                 <div className="skillBar">
-                    <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+                    <img src={JavaScript} alt="UIDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Título da Skill 1</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <h2>Javascript</h2>
+                        <p>Linguagem de programação versátil e essencial para o desenvolvimento de aplicações web interativas, com foco em funcionalidades dinâmicas no front-end e lógica no back-end.</p>
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
+                    <img src={ReactImg} alt="WebDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Título da Skill 2</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <h2>React</h2>
+                        <p>Biblioteca JavaScript moderna para criar interfaces de usuário eficientes e reutilizáveis, ideal para o desenvolvimento de aplicações web escaláveis e responsivas.</p>
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
+                    <img src={CriacaoSite} alt="AppDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Título da Skill 3</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <h2>Criação de sites</h2>
+                        <p>Habilidade em desenvolver sites completos e responsivos, combinando design intuitivo e funcionalidade robusta para proporcionar experiências de usuário únicas.</p>
                     </div>
                 </div>
             </div>
