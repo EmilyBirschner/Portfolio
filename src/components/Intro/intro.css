@@ -31,6 +31,7 @@
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
+
 }
 
 .introName {
@@ -41,6 +42,7 @@
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
+    width: 130vh;
 }
 
 .btn {
@@ -64,6 +66,11 @@
 
     .introContent {
         font-size: 10vw;
+    }
+
+    .introPara {
+        font-size: 2.5vh;
+        width: 70vh;
     }
 
     .hello {
